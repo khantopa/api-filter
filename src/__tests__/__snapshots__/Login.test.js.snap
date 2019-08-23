@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render login 1`] = `
+<div
+  className="login"
+>
+  <div
+    className="login_card"
+  >
+    <div
+      className="login_icon"
+    >
+      <img
+        alt="User-icon"
+        className="login_icon_img"
+        src="user-white.svg"
+      />
+    </div>
+    <div
+      className="login_form"
+    >
+      <label>
+        <input
+          className="login_form_field"
+          id="email"
+          name="email"
+          onChange={[Function]}
+          placeholder="E-mail"
+          type="email"
+        />
+        <img
+          alt="Email"
+          className="icon"
+          src="email.svg"
+        />
+      </label>
+      <label>
+        <input
+          className="login_form_field"
+          id="password"
+          name="password"
+          onChange={[Function]}
+          placeholder="Password"
+          type="password"
+        />
+        <img
+          alt="Key"
+          className="icon"
+          src="key.svg"
+        />
+      </label>
+    </div>
+    <div
+      className="error"
+    />
+    <br />
+    <br />
+    <div
+      className="login_submit"
+    >
+      <button
+        className="login_submit_button"
+        onClick={[Function]}
+      >
+        Login
+      </button>
+    </div>
+  </div>
+</div>
+`;

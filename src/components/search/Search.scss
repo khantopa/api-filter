@@ -1,0 +1,15 @@
+@import '../../styles/main.scss';
+
+.search {
+  width: 100%;
+  text-align: left;
+  &_label {
+    color: $dark;  
+    margin-bottom: 40px;  
+  }
+  &_field {
+    margin-top: 10px;
+    @extend .form_field;
+    text-align: left;
+  }
+}
