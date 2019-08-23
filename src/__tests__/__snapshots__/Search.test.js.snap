@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Search  1`] = `
+<div
+  className="search"
+>
+  <label
+    className="search_label"
+  >
+    :
+  </label>
+  <input
+    className="search_field"
+    onChange={[Function]}
+    type="text"
+  />
+</div>
+`;

@@ -1,0 +1,46 @@
+@import './variables';
+@import './mixins';
+
+.button {
+  all: unset;
+  padding: 10px 20px;
+  @include grid(1);
+  cursor: pointer;
+  height: 40px;
+  place-items: center;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 2px solid $light;
+  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, .35);
+  transition: all .7s ease;
+  &:hover {
+    box-shadow: 0 10px 20px 6px rgba(0, 0, 0, .35);
+  }
+  &:active {
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, .15);
+  }
+}
+
+.form_field {
+  all: unset;
+  background: $light;
+  box-sizing: border-box;
+  color: $dark;
+  font-size: 16px;
+  padding: 10px;
+  height: 40px;
+  width: 100%;
+  color: $dark;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px 3px rgba(0, 0, 0, .15);
+}
+
+.error {
+  height: 30px;
+  color:white;
+  width: 100%;
+  font-size: 14px;
+  padding: 10px;
+}

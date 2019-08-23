@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render List 1`] = `
+<div
+  className="container"
+>
+  <h1>
+    Lists
+  </h1>
+  <br />
+  <div
+    className="filter"
+  >
+    <Search
+      label="Search by name"
+      onInputChange={[Function]}
+    />
+    <Search
+      label="Search by company id"
+      onInputChange={[Function]}
+    />
+    <Search
+      label="Search by revenue"
+      onInputChange={[Function]}
+    />
+  </div>
+  <table
+    className="table"
+  >
+    <thead
+      className="table_head"
+    >
+      <tr
+        className="table_head_row"
+      >
+        <td
+          className="table_head_row_col"
+        >
+          Name
+        </td>
+        <td
+          className="table_head_row_col"
+        >
+          Company
+        </td>
+        <td
+          className="table_head_row_col"
+        >
+          Revenue
+        </td>
+      </tr>
+    </thead>
+    <tbody
+      className="table_body"
+    />
+  </table>
+</div>
+`;

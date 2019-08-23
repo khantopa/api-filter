@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Detail 1`] = `
+<div
+  className="contact"
+>
+  <Link
+    className="button"
+    to="/contacts"
+  >
+    Back
+  </Link>
+  <div
+    className="contact_card"
+  >
+    <h1 />
+    <h6>
+      E-mail: 
+    </h6>
+    <div
+      className="company"
+    >
+      <p>
+        <span>
+          Company ID:
+        </span>
+           
+      </p>
+      <p>
+        <span>
+          Company:
+        </span>
+           
+      </p>
+      <p>
+        <span>
+          Revenue:
+        </span>
+           
+      </p>
+      <p>
+        <span>
+          Country:
+        </span>
+           
+      </p>
+    </div>
+  </div>
+</div>
+`;

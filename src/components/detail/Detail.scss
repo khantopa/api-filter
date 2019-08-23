@@ -1,0 +1,54 @@
+@import '../../styles/main.scss';
+
+.contact {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  padding: 40px;
+  box-sizing: border-box;
+  background: $primary;
+  .button {
+    width: 100px;
+    color: $light;
+    background: $dark;
+  }
+  &_card {
+    @include absPosition(50%, 50%);
+    transform: translate(-50%, -50%);
+    @include card(80vh, auto);
+    background: rgba(255, 255, 255, .9);
+    color: $primary;
+    h1 {
+      text-transform: uppercase;
+      line-height: 38px;
+      font-size: 30px;
+      letter-spacing: .2em;
+    }
+    h6 {
+      font-size: 14px;
+      color: $dark;
+    }
+    .company {
+      margin: 30px auto;
+      text-align: left;
+      p {
+        font-size: 18px;
+        color: $dark;
+        span {
+          font-weight: bold;
+          color: $primary;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .contact {
+    &_card {
+      position: unset;
+      transform: unset;
+      @include card(100%, auto);
+    }
+  }
+}
