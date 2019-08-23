@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div
+  className="App"
+>
+  <BrowserRouter>
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/contacts"
+    />
+    <Route
+      component={[Function]}
+      path="/contacts/:id"
+    />
+  </BrowserRouter>
+</div>
+`;

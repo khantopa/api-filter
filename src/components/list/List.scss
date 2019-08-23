@@ -1,0 +1,42 @@
+@import '../../styles/main.scss';
+
+.container {
+  width: 100%;
+  padding: 40px 5%;
+  .filter {
+    @include grid(3);
+    grid-gap: 30px;
+    margin-bottom: 20px;
+  }
+  .table {
+   @include card(100%, auto);
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, .15);
+    &_head {
+      width: 100%;
+      background: $dark;
+      color: $light;
+      height: 40px;
+      font-weight: bold;
+    }
+    &_body {
+      &_row {
+        height: 40px;
+        border-bottom: 1px solid $light;
+        &:hover {
+          background: $light;
+        }
+        a {
+          text-decoration: none;
+          color: $primary;
+          font-weight: bold;
+          &:hover {
+            color: $dark;
+          }
+        }
+      }
+    }
+  }
+}
+

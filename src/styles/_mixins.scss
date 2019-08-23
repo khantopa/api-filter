@@ -1,0 +1,20 @@
+@mixin grid($col) {
+  display: grid;
+  grid-template-columns: repeat($col, 1fr);
+  place-items: center;
+}
+
+@mixin absPosition($x, $y) {
+  position: absolute;
+  top: $y;
+  left: $x;
+} 
+
+@mixin  card($width, $height) {
+  width: $width;
+  height: $height;
+  padding: 40px 20px;
+  box-shadow: 0 5px 10px 4px rgba(0, 0, 0, .35);  
+  border-radius: 8px;
+  box-sizing: border-box;
+}
